@@ -1,0 +1,55 @@
+.payment{
+    background-color:white ;
+
+}
+.payment__container>h1{
+    text-align: center;
+    padding: 10px;
+    font-family: Poppins;
+    font-weight: 400;
+    background-color:#eaeded;
+    border-bottom: 1px solid lightblue;
+}
+.payment__container>h1 a{
+    text-decoration: none;
+}
+.payment__section{
+    display: flex;
+    padding: 15px;
+    margin: 0 20px;
+    border-bottom:1px solid lightblue;
+    font-family: Arial, sans-serif;
+}
+.payment__title{
+    flex: 0.2;
+}
+
+.payment__title, .payment__items, .payment__details{
+    flex: 0.8;
+}
+.payment__address{
+    font-family: Poppins;
+    color: gray;
+    flex: 0.8;
+}
+.payment__priceContainer>button{
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color:#a88734 #9c7e31 #846a29;
+    color: black;
+    border-radius: 5px;
+    width: 50%;
+    height: 40px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .payment{
+        background-color:white ;
+        width: 600px;
+    
+    }
+   
+  }
+

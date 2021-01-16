@@ -1,0 +1,82 @@
+.header{
+    height: 60px;
+    align-items: center;
+    display: flex;
+    background-color:#131921;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+.header__logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+.header__searchIcon{
+    padding: 5px;
+    height:26px !important;
+    background-color:#cd9042;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.header__search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+.header__search input{
+    height:16px;
+    padding: 10px;
+    border: none;
+    width:100%;
+    border-radius: 5px 0px 0px 5px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__nav a{
+    text-decoration: none;
+}
+
+.header__component{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.header__component1__user{
+    font-size: 12px;
+    font-family: Poppins;
+    color: #cd9042;
+}
+
+.header__component1{
+    font-size: 12px;
+    font-family: Poppins;
+}
+.header__component2{
+    font-size: 15px;
+    font-weight: 800;
+    font-family: Poppins;
+}
+.header__componentBasket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* For Mobile Screen's */
+@media screen and (max-width: 600px) {
+    .header{
+        width: 600px; 
+    }
+  }
